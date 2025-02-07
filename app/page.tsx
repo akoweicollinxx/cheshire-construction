@@ -1,13 +1,13 @@
 "use client";
 import React from "react";
 import dynamic from "next/dynamic";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import HeroSection from "../components/HeroSection";
-import ServicesSection from "../components/ServicesSection"
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import HeroSection from "@/components/HeroSection";
+import ServicesSection from "@/components/ServicesSection";
 
-const Carousel = dynamic(() => import("../components/Carousel"), { ssr: false });
-const Testimonials = dynamic(() => import("../components/Testimonials"), { ssr: false });
+const Carousel = dynamic(() => import("@/components/Carousel"), { ssr: false });
+const Testimonials = dynamic(() => import("@/components/Testimonials"), { ssr: false });
 
 export default function Home() {
   return (
