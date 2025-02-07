@@ -5,9 +5,11 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import ServicesSection from "@/components/ServicesSection";
+import Carousel from "@/components/Carousel";
+import Testimonials from "@/components/Testimonials";
 
-const Carousel = dynamic(() => import("@/components/Carousel"), { ssr: false });
-const Testimonials = dynamic(() => import("@/components/Testimonials"), { ssr: false });
+// const Carousel = dynamic(() => import("@/components/Carousel"), { ssr: false });
+// const Testimonials = dynamic(() => import("@/components/Testimonials"), { ssr: false });
 
 export default function Home() {
   return (
